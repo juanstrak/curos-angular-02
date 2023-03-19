@@ -1,5 +1,5 @@
 main {
-    height: calc(100vh - var(--toolbar-height));
+    height: calc(100vh - var(--height-toolbar));
     padding: 20px;
     margin-left: var(--sidebar-width);
   }

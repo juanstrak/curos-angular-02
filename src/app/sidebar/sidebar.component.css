@@ -1,0 +1,15 @@
+aside {
+    background-color: #343434;
+    width: var(--sidebar-width);
+    height: 95%;
+    position: fixed ;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: orange;
+    margin-top: 210%;
+    display: flex;
+    justify-content: center;
+}

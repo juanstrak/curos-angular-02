@@ -1,0 +1,55 @@
+crear archivos angular desde cmd
+
+ubicarse en la carpeta: c c:/..........
+ng new "nombre"
+
+ng serve -o (crear server)
+
+
+comandos de git:
+git init
+git reset --hard
+
+para agregar el cambio:
+git add .
+git commit -m "(explicar cambio)"
+
+-crear repositorio
+	nombre al respositorio
+
+copiar comandos de la pag
+
+
+
+
+componentes hacen nuestro proyecto mucho mas mantenible y accesible
+
+generar nuevos componentes desde angular CLI
+
+ng generate component "nombre del componente"
+avebracion: ng g c "nombre"
+
+ng g c "nombre" --skip-tests (para crear componentes sin los archivos de testeo q son al pedo y despues molestan, mas adelante lo vamos a ver, por el momento asi)
+ng g c "nombre" --skip-tests --inline-style (solo html y ts)(por si no se va a usar el css)
+si necesitas el archivo de css:
+lo creas manualmente en la carpeta del componente, y lo linkeas en el .ts del compenente en "stylesUrls: 'nombre.css' ;"
+
+crear variables de css
+en styles.css
+:root{
+--main-width:10px;(dps lo puedo usar como var)
+}
+
+
+instalar bootstrap con npm
+en terminal:
+npm install bootstrap
+(se instala en node
+
+agregar un elemento mas al arive en "angular.json" en styles, "node_modules/bootstrap/dist/css/bootstrap.min.css",
+y tambien en scripst "node_modules/bootstrap/dist/js/bootstrap.js"
+
+
+siempre levantar devuelta el servidor cuando se hace un cambio en alguno de los archivos base con "ng s"
+
+

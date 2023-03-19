@@ -1,0 +1,10 @@
+p{
+    background-color: #272727;
+    height:var(--heigth-toolbar );
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

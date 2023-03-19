@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --heigth-toolbar: 70px;
+    --sidebar-width: 200px; 
+    --color-back: red;
+}
+
+:root{
+    --background-all: blue;
+}
