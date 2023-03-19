@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContenidoComponent } from './contenido/contenido.component';
-import { WrapperComponent } from './wrapper/wrapper.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +12,6 @@ import { WrapperComponent } from './wrapper/wrapper.component';
     ToolbarComponent,
     SidebarComponent,
     ContenidoComponent,
-    WrapperComponent,
   ],
   imports: [
     BrowserModule
